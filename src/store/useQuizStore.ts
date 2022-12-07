@@ -9,6 +9,7 @@ interface QuizState {
   // form details
   formDetails: { fullname: string; email: string };
   handleForm: (body: { fullname: string; email: string }) => void;
+  // answers
   answers: string[][];
   handleAnswers: (answers: string[][]) => void;
 }

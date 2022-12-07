@@ -43,7 +43,7 @@ export function QuizContent() {
               key={item}
               className={`cursor-pointer mb-2 flex items-center gap-2 ${
                 selected[index].includes(item)
-                  ? 'text-blue-700 font-semibold'
+                  ? 'text-black font-semibold'
                   : 'text-slate-300'
               }`}
               onClick={() => handleSelected(index, item, data[index].multiple)}>
