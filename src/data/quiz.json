@@ -1,0 +1,27 @@
+[
+  {
+    "multiple": false,
+    "question": "Which of the following is used in React.js to increase performance?",
+    "choices": [
+      "Virtual DOM",
+      "Original DOM",
+      "Both A and B",
+      "None of the above"
+    ]
+  },
+  {
+    "multiple": true,
+    "question": "Identify the one which is used to pass data to components from outside?",
+    "choices": ["Render Arguments", "Set State", "Proptypes", "props"]
+  },
+  {
+    "multiple": false,
+    "question": "Which of the following method is used to access the state of a component from inside of a member function?",
+    "choices": [
+      "this.proptotype.stateValue",
+      "this.getState()",
+      "this.values",
+      "this.state"
+    ]
+  }
+]
